@@ -40,7 +40,7 @@ To configure authentication in the solution, secure and connect several of the s
   
 While creating/configuring the application registrations, you must create client secrets and use the Azure Key Vault created in previous steps to store them. We also recommend keeping track of the application IDs generated for each app registration to simplify the configuration of the applications during the project.
 
-> **NOTE**: If you are using a O365 Developer tenant for Microsoft Teams and a separate Azure subscription tenant to create the Azure resources, the Azure SDK app registration must be created in the Azure subscription tenant, while the rest can be created in the developer tenant.
+> **NOTE**: If you are using an O365 Developer tenant for Microsoft Teams and a separate Azure subscription tenant to create the Azure resources, the Azure SDK app registration must be created in the Azure subscription tenant, while the rest can be created in the developer tenant.
 
 - [How to create/configure Bot Service API app registration](bot-service-api-app-registration.md#bot-service-api-app-registration)
 - [How to create/configure Bot Service Client app registration](bot-service-client-app-registration.md#bot-service-client-app-registration)
